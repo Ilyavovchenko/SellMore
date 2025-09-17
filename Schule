@@ -1,0 +1,53 @@
+<html><head>
+ <title>Deutsche Autos</title>
+<style> 
+.title {
+    width: 153px;
+    background-color: blueviolet;
+    flex-direction: row;
+    margin-left: 60px;
+    font-size: x-large;
+}
+
+.infodixi {
+width: 200px;
+background-color: aquamarine;
+margin-top: 400px;
+margin-left: 40px;
+border: 1px solid black;
+}
+
+</style>
+
+
+</head>
+
+
+<body>
+
+<div class="title"> 
+ <p>Deutsche Autos</p>
+</div>
+
+<div class="infodixi">
+<p>Die erste BMW Dixi war der Dixi 3/15 DA 1 ab 1927,
+   ein Lizenzbau des englischen Austin Seven, der sich
+   durch eine typische geteilte Windschutzscheibe,
+   einen offenen Tourenwagenaufbau und einen kleinen
+   4-Zylinder-Motor mit 15 PS auszeichnete.
+   Nach der Übernahme des Dixi-Werks durch BMW im Jahr 1928
+   wurde das Modell weiterproduziert, wobei das erste
+   BMW-Modell, der BMW 3/15 PS DA 2, ab 1929 erschien und
+   Verbesserungen wie Vierradbremsen und eine geräumigere
+   Karosserie bot. </p>
+</div>
+
+<div>
+    <img src="Dixi.img1">
+</div>
+
+
+
+</body>
+
+</html>
