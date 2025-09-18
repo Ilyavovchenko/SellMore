@@ -5,17 +5,47 @@
     width: 153px;
     background-color: blueviolet;
     flex-direction: row;
-    margin-left: 60px;
+    margin-left: 500px;
     font-size: x-large;
 }
 
+.EBM{
+    width: 150px;
+    background-color: rgb(245, 240, 240);
+    margin-left: 90px;
+    font-size: large;
+    border-radius: 10px;
+}
+
 .infodixi {
-width: 200px;
-background-color: aquamarine;
+width:250px;
+background-color: rgb(245, 240, 240);
 margin-top: 400px;
 margin-left: 40px;
-border: 1px solid black;
+border-radius: 10px;
+font-size: medium;
+border-color: rgb(12, 10, 10);
+border-width: 2px;
 }
+
+.div1 {
+    width: 340px;
+    border-width: 2px;
+    background-color: aqua;
+    margin-left: 20px;
+    border-color: black;
+    border-radius: 10px;
+}
+
+.div2 {
+    width: 340px;
+    border-width: 2px;
+    background-color: aqua;
+    margin-left: 20px;
+    border-color: black;
+    border-radius: 10px;
+}
+
 
 </style>
 
@@ -29,8 +59,14 @@ border: 1px solid black;
  <p>Deutsche Autos</p>
 </div>
 
-<div class="infodixi">
-<p>Die erste BMW Dixi war der Dixi 3/15 DA 1 ab 1927,
+<div class="div1">
+
+    <div class="EBM">
+     <p> Erste BMW-Modell </p>
+    </div>
+
+    <div class="infodixi">
+    <p>Die erste BMW Dixi war der Dixi 3/15 DA 1 ab 1927,
    ein Lizenzbau des englischen Austin Seven, der sich
    durch eine typische geteilte Windschutzscheibe,
    einen offenen Tourenwagenaufbau und einen kleinen
@@ -40,13 +76,40 @@ border: 1px solid black;
    BMW-Modell, der BMW 3/15 PS DA 2, ab 1929 erschien und
    Verbesserungen wie Vierradbremsen und eine geräumigere
    Karosserie bot. </p>
+    </div>
+
 </div>
 
 <div>
-    <img src="Dixi.img1">
+    <img src="Bilder/Dixi.1.jpg" img>
 </div>
 
+<div class="div2">
 
+    <div class="EBM">
+     <p> Neue BMW-Modell </p>
+    </div>
+
+    <div class="infodixi">
+    <p>Der BMW iX3 der Neuen Klasse erscheint ab 2026
+als Nachfolger des bisherigen iX3, nun erstmals
+auf der komplett neuen Elektroplattform des
+Unternehmens. Produziert wird das Modell ab Ende
+2025 im neuen Werk im ungarischen Debrecen, mit
+Markteinführung in Europa ab März 2026. Kennzeichen
+sind die moderne Silhouette eines Mittelklasse-SUV,
+eine flache Batteriearchitektur und deutlich höhere
+Reichweiten durch die sechste Batteriegeneration.
+Als erstes SUV der Neuen Klasse markiert er den Beginn
+einer neuen Ära elektrischer BMW-Modelle mit klarem
+Design, digitaler Bedienung und effizienteren Antrieben. </p>
+    </div>
+
+</div>
+
+<div>
+    <img src="Bilder/Dixi.1.jpg" img>
+</div>
 
 </body>
 
