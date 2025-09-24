@@ -1,9 +1,15 @@
-<html><head>
+<html>
+    
+<head>
+
+<link rel="stylesheet" href="design.css">
+
  <title>Deutsche Autos</title>
 <style> 
+
 .title {
     width: 153px;
-    background-color: blueviolet;
+    background-color: rgb(206, 203, 209);
     flex-direction: row;
     margin-left: 500px;
     font-size: x-large;
@@ -46,6 +52,19 @@ border-width: 2px;
     border-radius: 10px;
 }
 
+.div3 {
+    width: 340px;
+    border-width: 2px;
+    background-color: aqua;
+    margin-left: 20px;
+    border-color: black;
+    border-radius: 10px;
+}
+
+.foto1 {
+    border-radius: 10px;
+    width: 100px;
+}
 
 </style>
 
@@ -60,6 +79,14 @@ border-width: 2px;
 </div>
 
 <div class="div1">
+
+
+<div>
+ <img src="dixi.jpg">
+</div>
+
+
+
 
     <div class="EBM">
      <p> Erste BMW-Modell </p>
@@ -107,9 +134,32 @@ Design, digitaler Bedienung und effizienteren Antrieben. </p>
 
 </div>
 
-<div>
-    <img src="Bilder/Dixi.1.jpg" img>
+
+
+
+<div class="div3">
+
+    <div class="EBM">
+     <p> Hässlichste BMW-Modell </p>
+    </div>
+
+    <div class="infodixi">
+    <p>Der wohl hässlichste BMW ist für viele der 5er 
+     Gran Turismo (F07). Sein Design wirkte
+     unausgewogen und schwerfällig, weil er
+     versuchte, gleichzeitig Limousine, Kombi und
+     SUV zu sein. Besonders das wuchtige Heck ließ das
+     Auto unförmig erscheinen, und die Proportionen
+     passten einfach nicht zusammen. Obwohl er
+     technisch und vom Komfort her überzeugte, wurde er
+     von Fans wie auch Kritikern fast einhellig als
+     Design-Fehltritt bezeichnet und bleibt bis heute
+     das wohl unattraktivste Modell der Marke. </p>
+    </div>
+
 </div>
+
+
 
 </body>
 
