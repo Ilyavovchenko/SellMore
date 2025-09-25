@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
 <html>
     
 <head>
@@ -10,7 +9,8 @@
 <style> 
 
 .title {
-    display: flex;                
+  margin: auto;
+  display: flex;                
   justify-content: center;      
   align-items: center;          
   background-color: rgb(206, 203, 209);
@@ -41,44 +41,69 @@ border-width: 2px;
 }
 
 .alldivs {
-  display: flex;         
+  display: flex;       
+  flex-wrap: wrap;  
   justify-content: space-around; 
   align-items: flex-start;       
   margin-top: 30px;
+  margin: 10px;
 }
 
 .div1 {
     width: 340px;
     border-width: 2px;
-    background-color: aqua;
+    background-color: rgb(206, 203, 209);
     margin-left: 20px;
     border-color: black;
     border-radius: 10px;
+    margin-bottom: 20px; 
+    position: relative;
 }
 
 .div2 {
     width: 340px;
     border-width: 2px;
-    background-color: aqua;
+    background-color: rgb(206, 203, 209);
     margin-left: 20px;
- 
     border-color: black;
     border-radius: 10px;
+    margin-bottom: 20px; 
+    position: relative;
 }
 
 .div3 {
     width: 340px;
     border-width: 2px;
-    background-color: aqua;
+    background-color: rgb(206, 203, 209);
     margin-left: 20px;
     border-color: black;
     border-radius: 10px;
-
+    margin-bottom: 20px; 
+    position: relative;
 }
 
 .foto1 {
     border-radius: 10px;
-    width: 100px;
+    width: 300px;
+    margin-left: 10px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.foto2 {
+    border-radius: 10px;
+    width: 300px;
+    margin-left: 10px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.foto3 {
+    border-radius: 10px;
+    width: 300px;
+    margin-left: 10px;
+    margin-top: 10px;
+    position: absolute;
 }
 
 </style>
@@ -97,10 +122,14 @@ border-width: 2px;
 
 <div class="div1">
 
-
     <div class="EBM">
      <p> Erste BMW-Modell </p>
     </div>
+
+<div class="foto1">
+    <img src="dixi.jpg" class="foto1">
+</div>
+
 
     <div class="infodixi">
     <p>Die erste BMW Dixi war der Dixi 3/15 DA 1 ab 1927,
@@ -123,6 +152,11 @@ border-width: 2px;
     <div class="EBM">
      <p> Neue BMW-Modell </p>
     </div>
+
+<div class="foto2">
+    <img src="BMWiX3.jpg">
+</div>
+
 
     <div class="infodixi">
     <p>Der BMW iX3 der Neuen Klasse erscheint ab 2026
@@ -149,6 +183,10 @@ Design, digitaler Bedienung und effizienteren Antrieben. </p>
     <div class="EBM">
      <p> Hässlichste BMW-Modell </p>
     </div>
+
+<div class="foto3">
+    <img src="BMWF07.jpg">
+</div>
 
     <div class="infodixi">
     <p>Der wohl hässlichste BMW ist für viele der 5er 
