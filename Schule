@@ -6,7 +6,10 @@
 <link rel="stylesheet" href="design.css">
 
  <title>Deutsche Autos</title>
-<style> 
+
+</head>
+
+<style>
 
 .title {
   margin: auto;
@@ -91,11 +94,11 @@ border-width: 2px;
 }
 
 .foto2 {
-    border-radius: 10px;
+border-radius: 10px;
     width: 300px;
     margin-left: 10px;
     margin-top: 10px;
-    position: absolute;
+    position: absolute;   
 }
 
 .foto3 {
@@ -107,10 +110,6 @@ border-width: 2px;
 }
 
 </style>
-
-
-</head>
-
 
 <body>
 
@@ -154,7 +153,7 @@ border-width: 2px;
     </div>
 
 <div class="foto2">
-    <img src="BMWiX3.jpg">
+    <img src="BMWiX3.jpg" class="foto2">
 </div>
 
 
@@ -185,7 +184,7 @@ Design, digitaler Bedienung und effizienteren Antrieben. </p>
     </div>
 
 <div class="foto3">
-    <img src="BMWF07.jpg">
+    <img src="BMWF07.jpg" class="foto3">
 </div>
 
     <div class="infodixi">
